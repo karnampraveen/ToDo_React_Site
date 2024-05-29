@@ -1,21 +1,29 @@
-[
+{
+  "Tasks": [
     {
-        "Name of task": "ToDo React Site",
-        "Task description": "Build the ToDo React Site with Home, Add Task and Display Task pages",
-        "Time the task will take (in hours)": 8,
-        "Task Priority": "High"
+      "Task_Name": "ToDo React Site",
+      "Task_description": "Build the ToDo React Site with Home, Add Task and Display Task pages",
+      "Task_Time": 8,
+      "Task_Priority": "High"
     },
     {
-        "Name of task": "Publish code",
-        "Task description": "Add the code onto GIT repository",
-        "Time the task will take (in hours)": 1,
-        "Task Priority": "Medium"
+      "Task_Name": "Publish code",
+      "Task_description": "Add the code onto GIT repository",
+      "Task_Time": 1,
+      "Task_Priority": "Medium"
     },
     {
-        "Name of task": "CSS Work",
-        "Task description": "Improve the presentation of the site using CSS",
-        "Time the task will take (in hours)": 2,
-        "Task Priority": "Low"
+      "Task_Name": "CSS Work",
+      "Task_description": "Improve the presentation of the site using CSS",
+      "Task_Time": 2,
+      "Task_Priority": "Low"
+    },
+    {
+      "id": "1518",
+      "Task_Name": "Fetch Chrome Tasks 4",
+      "Task_Description": "sdfsdfjh",
+      "Task_Time": "3",
+      "Task_Priority": "Medium"
     }
-
-]
+  ]
+}
