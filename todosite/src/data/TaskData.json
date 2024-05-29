@@ -1,0 +1,21 @@
+[
+    {
+        "Name of task": "ToDo React Site",
+        "Task description": "Build the ToDo React Site with Home, Add Task and Display Task pages",
+        "Time the task will take (in hours)": 8,
+        "Task Priority": "High"
+    },
+    {
+        "Name of task": "Publish code",
+        "Task description": "Add the code onto GIT repository",
+        "Time the task will take (in hours)": 1,
+        "Task Priority": "Medium"
+    },
+    {
+        "Name of task": "CSS Work",
+        "Task description": "Improve the presentation of the site using CSS",
+        "Time the task will take (in hours)": 2,
+        "Task Priority": "Low"
+    }
+
+]
