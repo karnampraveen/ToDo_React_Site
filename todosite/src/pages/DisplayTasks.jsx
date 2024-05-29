@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import TaskData from '../data/TaskData.json'
 
-const DisplayTasks = (task) => {
+const DisplayTasks = () => {
 // const 
     // const [task, setTask] = useState('')
 
@@ -9,7 +9,7 @@ const DisplayTasks = (task) => {
     // const [Task_Description, setTaskDesc] = useState('')
     // const [Task_Time, setTaskTime] = useState(0)
     // const [Task_Priority, setTaskPriority] = useState('')
-    const [tasks, setTasks] = useState([]);
+    const [tasks, setTasks] = useState([tasks]);
 
     useEffect(() => {
         fetch('http://localhost:8000/Tasks')
@@ -19,6 +19,7 @@ const DisplayTasks = (task) => {
             // .then((data)=> setTaskTime(data.message))
             // .then((data)=> setTaskPriority(data.message))
             .then((data) => setTasks(data.message))
+            console.log(tasks)
     }, [])
 
     return (
